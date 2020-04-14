@@ -1,0 +1,33 @@
+export const CLASSIC_BUNS = {
+  CLASSIC_BUN_TOP: 'CLASSIC_BUN_TOP',
+  CLASSIC_BUN_BOTTOM: 'CLASSIC_BUN_BOTTOM'
+}
+
+export const DARK_BUNS = {
+  DARK_BUN_TOP: 'DARK_BUN_TOP',
+  DARK_BUN_BOTTOM: 'DARK_BUN_BOTTOM'
+}
+
+export const BUNS = {
+  ...CLASSIC_BUNS,
+  ...DARK_BUNS
+}
+
+export const INGREDIENTS = {
+  ONION: 'ONION',
+  LETTUCE: 'LETTUCE',
+  TOMATOES: 'TOMATOES',
+  BEEF: 'BEEF',
+  BACON: 'BACON',
+  CHEESE: 'CHEESE'
+}
+
+export const TYPES = {
+  BUN: 'BUN',
+  INGREDIENT: 'INGREDIENT'
+}
+
+export const ITEMS = {
+  ...BUNS,
+  ...INGREDIENTS
+}
